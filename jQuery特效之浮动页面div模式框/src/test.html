@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Div模态窗口登陆效果</title>
+<style type="text/css" >
+#haiwi_overlay{
+  position:fixed;
+  z-index:10000;
+  top:0px;
+  left:0px;
+  height:100%;
+  width:100%;
+  background:#000;
+  display:none;
+}
+</style>
+</head>
+<body>
+<input type="button"  value="点击测试"  onclick="fopen()" />
+<div id="modalDiv" style="display:none;">
+  <table style="background-color:#FFF; width:300px;height:200px; border:2px solid #666666;">
+    <tr><td align="center" "><h3>用户登录</h3></td></tr>
+    <tr><td align="center" > 
+      <label for="username">用户名:</label>
+      <input type="text" name="username" id="username" class="txtfield" tabindex="1" style=" width:160px;" />
+    </td></tr>
+    <tr><td align="center">
+      <label for="password">密    码:</label>
+      <input type="password" name="password" id="password" class="txtfield" tabindex="2" style=" width:160px;" />
+    </td></tr>
+    <tr><td style="background-color:#F0F0F0;" align="center">
+      <input type="button" name="loginbtn" id="loginbtn" value="登录" tabindex="3">  
+      <input type="button" name="loginbtn" id="loginbtn" value="关闭" onclick="fclose();" tabindex="3">
+    </td></tr>
+  </table>
+</div> 
+<script type="text/javascript" src="js/jquery-1.9.1/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/DivModal.js"></script>
+<script type="text/javascript">
+function fopen(){
+  $.openHaiwiModal("modalDiv");
+}
+function fclose(){
+  $.closeHaiwiModal("modalDiv");
+}
+</script>
+</body>
+</html>
