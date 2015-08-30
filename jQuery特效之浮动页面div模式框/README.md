@@ -6,6 +6,7 @@
 （2）采用两个方法openHaiwiModal和closeHaiwiModal操作模式框，便于和辅助功能的协同操作。
 效果图如下：
 
+![](http://img.blog.csdn.net/20150126184232046?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvb1RlbmdZdWU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
 
 使用该插件需注意一下几点：
 
