@@ -14,6 +14,7 @@
 
 
 **使用步骤：**
+
 （1）首先引入jquery类库
 
 （2）必须包括样式haiwiModal.css和插件jquery.haiwiModal.js
