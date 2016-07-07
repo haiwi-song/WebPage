@@ -1,0 +1,37 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Haiwi消息对话框</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="style/haiwiModal.css" />
+		<script type="text/javascript" src="jquery.1.9.1.min.js"></script>
+		<script type="text/javascript" src="jquery.haiwiModal.js"></script>
+	</head>
+	<body>
+		<a href="javascript:openDiv();" >打开</a>
+		<a href="javascript:closeDiv();" >关闭</a>
+
+		<div id="popContainer" class="haiwi-modal">
+		    <div class="haiwi-modal-title">
+		       示例
+		    </div>
+		    <div class="haiwi-modal-body">
+		        jquery弹出Div对话框内容
+		    </div>
+		    <div class="haiwi-modal-bottom">
+		        <button class="btn-h28 btn-blue mr20" onclick="closeDiv();"><strong>确定</strong></button>
+		        <button class="btn-h28 btn-white" onclick="closeDiv();">取 消</button>
+		    </div>
+		    <a href="javascript:void(0);" class="close-haiwi-modal">×</a>
+		</div>
+	</body>
+	<script type="text/javascript">
+		function openDiv(){
+			$.openHaiwiModal("popContainer",{closeClickOverlay:true,width:600,height:400});
+		}
+
+		function closeDiv(){
+			$.closeHaiwiModal("popContainer"); 
+		}
+	</script>
+</html>

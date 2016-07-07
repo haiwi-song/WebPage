@@ -1,0 +1,226 @@
+﻿.haiwi-modal-overlay{
+    position:fixed;
+    z-index:10000;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    background:#000;
+    display:none;
+}
+
+.haiwi-modal {
+    position: relative;
+    display: none;
+    background-color: #FFFFFF;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+    -box-shadow: 0 0 10px rgba(0,0,0,.4);
+    border: 1px solid #d3d3d3;
+}
+
+.haiwi-modal .haiwi-modal-title{
+    position: absolute;
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    top: 0px;
+    left: 30px;
+    right: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    cursor:pointer;
+}
+
+.haiwi-modal .haiwi-modal-body{
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    right: 1px;
+    bottom:55px;
+    color: #404040;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+}
+
+.haiwi-modal .close-haiwi-modal {
+    position: absolute;
+    font-size: 22px;
+    line-height: .5;
+    top: 12px;
+    right: 13px;
+    color: #aaa;
+    text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    filter: alpha(opacity=60);
+    -khtml-opacity: 0.6;
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+}
+
+
+.haiwi-modal .close-haiwi-modal:hover, .haiwi-modal .close-haiwi-modal:focus{
+    -khtml-opacity: 1.0;
+    -moz-opacity: 1.0;
+    opacity: 1.0;
+}
+
+.haiwi-modal .haiwi-modal-bottom {
+    position: absolute;
+    text-align: center;
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px;
+    -webkit-box-shadow: inset 0 1px 0 #ffffff;
+    -moz-box-shadow: inset 0 1px 0 #ffffff;
+    box-shadow: inset 0 1px 0 #ffffff;
+    border-top: 1px solid #ddd;
+    padding: 10px 0 0;
+    zoom: 1;
+    left: 30px;
+    right: 30px;
+    bottom: 15px;
+}
+
+.btn-h28,.btn-h22,.btn-h38 {
+    display: inline-block;
+    border: 1px solid;
+    *zoom: 1;
+    font-size: 12px;
+    border-radius: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: background .3s;
+    padding-left: 12px;
+    padding-right: 12px;
+    outline: 0
+}
+
+input.btn-h28,input.btn-h22,input.btn-h38,button.btn-h28,button.btn-h22,button.btn-h38 {
+    box-sizing: content-box;
+    *overflow: visible
+}
+
+a.btn-h28:hover,a.btn-h22:hover,a.btn-h38:hover {
+    text-decoration: none
+}
+
+.btn-h28 {
+    height: 28px;
+    line-height: 28px
+}
+
+html* input.btn-h28,html* button.btn-h28 {
+    height: 30px
+}
+
+.btn-h22 {
+    height: 22px;
+    line-height: 22px
+}
+
+html* input.btn-h22,html* button.btn-h22 {
+    height: 24px
+}
+
+.btn-h38 {
+    font-size: 14px;
+    height: 38px;
+    line-height: 38px
+}
+
+html* input.btn-h38,html* button.btn-h38 {
+    height: 40px
+}
+
+.btn-blue {
+    background-color: #48a7e7;
+    border-color: #48a7e7;
+    color: #fff
+}
+
+.btn-blue:hover {
+    background-color: #4196cf
+}
+
+a.btn-blue:link,a.btn-blue:visited,a.btn-blue:hover {
+    color: #fff
+}
+
+a.btn-blue:hover {
+    background-color: #4196cf
+}
+
+.btn-blue:hover {
+    background-color: #4196cf
+}
+
+.btn-green {
+    background-color: #2bc762;
+    border-color: #2bc762;
+    color: #fff
+}
+
+.btn-green:hover {
+    background-color: #26ac56
+}
+
+a.btn-green:link,a.btn-green:visited,a.btn-green:hover {
+    color: #fff
+}
+
+.btn-white {
+    background-color: #fff;
+    border-color: #c7c7c7;
+    color: #333
+}
+
+.btn-white:hover {
+    background-color: #eee
+}
+
+a.btn-white:link,a.btn-white:visited,a.btn-white:hover {
+    color: #333
+}
+
+.btn-blue-n {
+    background-color: #badef5;
+    border-color: #badef5;
+    color: #d4eaf9;
+    cursor: default
+}
+
+.btn-disabled {
+    border-color: #c6c6c6;
+    color: #c6c6c6;
+    cursor: default;
+    background-color: #fff
+}
+
+
+.ml10 {
+    margin-left: 10px
+}
+
+.ml20 {
+    margin-left: 20px
+}
+
+.mr10 {
+    margin-right: 10px
+}
+
+.mr20 {
+    margin-right: 20px
+}
+
