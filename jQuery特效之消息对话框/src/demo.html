@@ -1,0 +1,23 @@
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Haiwi消息对话框</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" type="text/css" href="style/haiwiMsg.css" />
+		<script type="text/javascript" src="jquery.1.9.1.min.js"></script>
+		<script type="text/javascript" src="jquery.haiwiMsg.js"></script>
+	</head>
+	<body>
+		<a href="javascript:showSuccess();" >成功</a>
+		<a href="javascript:showError();" >失败</a>
+	</body>
+	<script type="text/javascript">
+		function showSuccess(){
+			$.thSuccess("操作成功！");
+		}
+
+		function showError(){
+			$.thError("操作失败操作失败操作失败操作失败操作失败操作失败！");
+		}
+	</script>
+</html>
