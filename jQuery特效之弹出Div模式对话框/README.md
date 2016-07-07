@@ -29,7 +29,8 @@
 	`$.closeHaiwiModal("modalDiv");`
 
 　　另 可以设置options自定义参数,如设置点击遮罩自动层关闭弹出层参数
-	`$.openHaiwiModal("modalDiv"，{closeClickOverlay:true,width:800,height:600});`
+
+    `$.openHaiwiModal("modalDiv"，{closeClickOverlay:true,width:800,height:600});`
 
 
 **举例如下：**
