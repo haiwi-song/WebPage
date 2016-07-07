@@ -22,11 +22,14 @@
 	`<div id="modalDiv" ></div>`
 
 （4）使用`$.openHaiwiModal`和`$.closeHaiwiModal`弹出关闭Div模式框
-　　如： `$.openHaiwiModal("modalDiv");`
-　　　　`$.closeHaiwiModal("modalDiv");`
+
+　　如：
+	`$.openHaiwiModal("modalDiv");`
+
+	`$.closeHaiwiModal("modalDiv");`
 
 　　另 可以设置options自定义参数,如设置点击遮罩自动层关闭弹出层参数
-　　　　`$.openHaiwiModal("modalDiv"，{closeClickOverlay:true,width:800,height:600});`
+	`$.openHaiwiModal("modalDiv"，{closeClickOverlay:true,width:800,height:600});`
 
 
 **举例如下：**
