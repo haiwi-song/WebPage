@@ -65,3 +65,4 @@ $.openHaiwiModal("popContainer"，{closeClickOverlay:true,width:800,height:600})
 $.closeHaiwiModal("popContainer");
 ```
 
+详情查看博客：[jquery插件封装：弹出div对话框](http://blog.csdn.net/otengyue/article/details/51700287)
